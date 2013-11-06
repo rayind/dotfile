@@ -32,7 +32,7 @@ Bundle 'fisadev/vim-ctrlp-cmdpalette'
 " Zen coding
 Bundle 'mattn/zencoding-vim'
 " Git integration
-Bundle 'motemen/git-vim'
+"Bundle 'motemen/git-vim'
 " Tab list panel
 Bundle 'kien/tabman.vim'
 " Powerline
@@ -58,10 +58,10 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 " Git diff icons on the side of the file lines
-Bundle 'airblade/vim-gitgutter'
+"Bundle 'airblade/vim-gitgutter'
 
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'nathanaelkane / vim-indent-guides'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 
 " Relative numbering of lines (0 is the current line)
