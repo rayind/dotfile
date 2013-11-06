@@ -276,6 +276,10 @@ endif
 if has('gui_running')
     colorscheme desert
 endif
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_guide_size = 1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=7
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=7
 "set guifont=Yahei\ Consolas\ Hybrid\ 12
 
 " when scrolling, keep cursor 3 lines away from screen border
